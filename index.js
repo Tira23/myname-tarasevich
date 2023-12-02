@@ -1,5 +1,5 @@
-function author() {
+export function author() {
     return 'Tarasevich'
 }
 
-myName = (str, level = 'warn') => console[level](str)
+export const myName = (str, level = 'warn') => console[level](str)
